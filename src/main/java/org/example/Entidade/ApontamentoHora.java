@@ -1,4 +1,4 @@
-package Entidade;
+package org.example.Entidade;
 
 import java.time.LocalDate;
 

@@ -1,7 +1,7 @@
-package Servicos;
+package org.example.Servicos;
 
-import Entidade.Usuario;
-import Interface.Inotificador;
+import org.example.Entidade.Usuario;
+import org.example.Interface.Inotificador;
 
 public class NotificarEmaiil implements Inotificador {
     @Override

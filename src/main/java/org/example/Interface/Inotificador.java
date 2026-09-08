@@ -1,6 +1,6 @@
-package Interface;
+package org.example.Interface;
 
-import Entidade.Usuario;
+import org.example.Entidade.Usuario;
 
 public interface Inotificador {
     void notificar(Usuario usuario, String mensagem);

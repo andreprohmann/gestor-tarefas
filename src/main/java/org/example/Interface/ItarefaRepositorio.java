@@ -1,6 +1,6 @@
-package Interface;
+package org.example.Interface;
 
-import Entidade.Tarefa;
+import org.example.Entidade.Tarefa;
 
 public interface ItarefaRepositorio {
     void salvar(Tarefa tarefa);

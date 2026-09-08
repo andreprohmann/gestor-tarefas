@@ -1,8 +1,8 @@
-package Servicos;
+package org.example.Servicos;
 
-import Entidade.StatusTarefas;
-import Entidade.Tarefa;
-import Interface.ItransicaoStatus;
+import org.example.Entidade.StatusTarefas;
+import org.example.Entidade.Tarefa;
+import org.example.Interface.ItransicaoStatus;
 
 public class RegraHorasApontadas implements ItransicaoStatus {
     @Override

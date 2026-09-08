@@ -1,7 +1,7 @@
-package Repositorio;
+package org.example.Repositorio;
 
-import Entidade.Tarefa;
-import Interface.ItarefaRepositorio;
+import org.example.Entidade.Tarefa;
+import org.example.Interface.ItarefaRepositorio;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
