@@ -47,7 +47,7 @@ public class TarefasSQLite implements ItarefaRepositorio {
 
         try (Connection conn = DriverManager.getConnection(url);
             PreparedStatement pstmt = conn.prepareStatement(sql)){
-            pstmt.setString(1, tarefa,getStatus().name());
+            pstmt.setString(1, tarefa.getStatus().name());
             pstmt.setString(1,tarefa.getTitulo());
             pstmt.executeUpdate();
 
