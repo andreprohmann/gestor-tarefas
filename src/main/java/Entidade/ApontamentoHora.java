@@ -10,7 +10,7 @@ public class ApontamentoHora {
     public ApontamentoHora(double horas, String descricao){
         this.horas = horas;
         this.descricao = descricao;
-        this.data = LocalDate.new();
+        this.data = LocalDate.now();
     }
 
     public double getHoras() {

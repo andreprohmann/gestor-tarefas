@@ -17,7 +17,7 @@ public class Tarefa {
     }
 
     public void alterarStatus(StatusTarefas novoStatus){
-        this.status=novoStatus
+        this.status=novoStatus;
     }
     public void adicionarApontamento(ApontamentoHora apontamento){
         if(this.status == StatusTarefas.CONCLUIDO){
